@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    background-color: rgb(146, 146, 156);
+}
+li {
+font-style: italic;
+font-size: 15px;
+font-weight: normal;
+}
+
+a {
+    color: rgb(88, 57, 137);
+}
+a:hover{
+    font-size: 18px;
+}
+a:visited{
+    color:aqua
+}
+.resumeListHeading{
+    font-weight: bold;
+    font-style: normal;
+}
+.justify{text-align:left;
+            width: 50%;
+        font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.homebg{
+    background-image: url('../images/images.jpg');
+    background-size: cover;
+}
+.corner{
+    position: absolute;
+    border: 2px;
+    top: 5px;
+    right: 5px;
+}
+.center{
+    text-align: center;
+    list-style-position: inside;
+}
+.title{
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(36, 52, 53);
+}
+.lcorner{position: relative;
+    border: 2px;
+    top: 10px;
+    left: 5px;}
